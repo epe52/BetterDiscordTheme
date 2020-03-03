@@ -1,0 +1,222 @@
+/* === VARIABLES === */
+:root {
+    --darkprimary: #222222;
+    --accent: #0063B1; /* Sininen */
+}
+  
+
+/*======= Windowsbar and related ===========*/
+  
+/* Windowsbar*/
+.titleBar-AC4pGV{
+    background: var(--accent);
+    height:22px;
+    margin: 0;
+}
+  
+/* Windows buttons*/
+.winButton-iRh8-Z{
+    background: rgba(30, 30, 30, .7) !important;
+    height:27px;
+}
+
+/* Discord name in windowsbar*/
+.wordmark-2iDDfm{
+    background: rgba(30, 30, 30, .6) !important;
+    background-size: 70px 19px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+/* Discord text-logo color */
+svg[name="DiscordWordmark"]{
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Windows X-button backround color on hover */
+.winButtonClose-1HsbF-:hover{
+    background: rgba(255, 0, 0, 1) !important;
+}
+
+
+/*======= Serverilist things ===========*/
+
+/* Small avatar backroung so that logo backgroung invisible */
+.avatar-small{
+    background-color:transparent !important;
+}
+
+/* CoolStoryBob icon */
+.childWrapper-anI2G9{
+    background: url(https://cdn-images-1.medium.com/max/800/1*NDA1B65s4c5giHMy1bzBMQ.png)!important;
+    opacity: 1;
+    margin-top: 0;
+    background-size: 100% !important;
+    background-color: var(--darkprimary) !important;
+}
+
+/* Discord logo  */
+/* Online amount */
+.homeIcon-tEMBK1,
+.da-friendsOnline{
+    display: none;
+}
+
+
+/*========== Chat things ===========*/
+
+/* Message top-border and top-margin */
+.groupStart-23k01U{
+    border-top: 4px solid rgba(30, 30, 30, 1);
+    margin-top: 10px !important;
+}
+/* Message padding with use of header  */
+.header-23xsNx{
+    padding-top: 10px;
+}
+/* Avatar image padding  */
+.contents-2mQqc9 > img{
+    padding: 10px 0;
+}
+
+/* Date divider */
+.divider-JfaTT5{
+    margin: 0;
+    width: 100%;
+    top: 11px;
+    padding: 1px 1px;
+    background: rgba(0, 0, 0, 1) !important;
+}
+
+/* Unread without date */
+.isUnread-3Ef-o9{
+    top: 2.3px !important;
+    height: 2px;
+    background: red !important;
+}
+.da-unreadPill{
+    margin-top: 1px;
+}
+/* Date divider + unread top-border */
+.hasContent-1_DUdQ.isUnread-3Ef-o9{
+    top: 11.5px !important;
+}
+
+
+
+/*======= Friends section ===========*/
+
+.da-peopleColumn{
+    /*background: url(https://cdn.discordapp.com/attachments/278501596332294145/546415000537792545/earth-seen-from-space2.jpg);*/
+    background: url(https://cdn.discordapp.com/attachments/278501596332294145/644660286053416980/55005860_p0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -100px; /* Hide scrollbar */
+}
+.da-peopleListItem{
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 80%;
+}
+
+/* Friends logo picture */
+.linkButtonIcon-Mlm5d6{
+    background: url(https://cdn.discordapp.com/attachments/278501596332294145/523618995115655213/monkaCozy.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/* Now playing */
+/* Offline ppl from "Online" section */
+/* Original logo (div child g) */
+div[class="nowPlayingColumn-2sl4cE da-nowPlayingColumn"],
+.da-peopleList > div:not(:first-of-type),
+.linkButtonIcon-Mlm5d6 > g[fill="none"]{
+    display:none;
+}
+
+
+/*======= Emote menu ===========*/
+
+/* Better discord emotes */
+#bda-qem{
+    display:none;
+}
+
+/* Big emote picker */
+.emojiPicker-3m1S-j{
+    height:auto;
+    max-height:auto;
+    position:fixed;
+    top:30px;
+    bottom: 10px;
+    right:10px;
+    border-radius: 5px;
+}
+.scroller-3vODG7{
+    height: auto !important;
+}
+
+
+/*======= Misc things ===========*/
+
+/* Size of profile picture */
+.avatar-small{
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+    border-radius: 50%;
+}
+
+/* Games tab and other misc hidden */
+a[href='/activity'],
+a[href='/store'],
+a[href='/library'],
+.image-1GzsFd,
+.text-GwUZgS,
+#bd-pub-li{
+    display: none;
+}
+
+/* Unread message "ball" */
+.item-2hkk8m{
+    margin-left: -2.5px;
+    transform: scale(1.5);
+    background: var(--accent) !important;
+}
+
+/* Gift button in chat */
+.da-buttons > button[tabindex="2"]{
+    display:none;
+}
+
+/* 
+* During screen sharing in video call hide own sharing
+* but only if there is someone else sharing in addition to you
+*/
+.content-1mhl32 > .marginReset-236NPn:last-of-type{
+    display:none;
+}
+
+
+/* === CHANGES TO SERVER MEMBER LIST */
+
+.membersGroup-v9BXpm {
+    margin-top: 6px;
+    margin-bottom: 3px;
+    color: rgba(185, 185, 185, 1) !important; /*Kategorian nimi*/
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .10em;
+    font-weight: 600;
+    padding: 10px 103px 10px 103px;
+    border: 2px solid;
+    border-color: rgba(150,150,150, 0.5);
+    border-radius: 5px;
+    width: 90px;
+    margin-left: 15px;
+    transition: all 700ms ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
