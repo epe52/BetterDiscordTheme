@@ -93,9 +93,16 @@ svg[name="DiscordWordmark"]{
     color: rgba(180, 180, 180, 1);
 }
 
-/* Unread without date */
-.isUnread-3Ef-o9{
+/* Unread without date starting new message group */
+.isUnread-3Ef-o9 > .groupStart-23k01U{
     top: 11px !important;
+    height: 2.5px;
+    background: red !important;
+    left: -20px !important;
+}
+/* Unread without date within message group */
+.isUnread-3Ef-o9{
+    top: -2px !important;
     height: 2.5px;
     background: red !important;
     left: -20px !important;
