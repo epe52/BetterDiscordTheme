@@ -1,7 +1,7 @@
 /* === VARIABLES === */
 :root {
     --darkprimary: #222222;
-    --accent: #0063B1; /* Sininen */
+    --accent: #0063B1; /* Blue */
 }
   
 
@@ -81,21 +81,28 @@ svg[name="DiscordWordmark"]{
 
 /* Date divider */
 .divider-JfaTT5{
-    margin: 0;
+    margin-bottom:-2px !important;
     width: 100%;
     top: 11px;
     padding: 1px 1px;
     background: rgba(0, 0, 0, 1) !important;
 }
+/* Date on the divider */
+.content-1o0f9g{
+    border: 3px solid rgba(30, 30, 30, 1);
+    color: rgba(180, 180, 180, 1);
+}
 
 /* Unread without date */
 .isUnread-3Ef-o9{
-    top: 2.3px !important;
-    height: 2px;
+    top: 11px !important;
+    height: 2.5px;
     background: red !important;
+    left: -20px !important;
 }
 .da-unreadPill{
     margin-top: 1px;
+    right: -5px;
 }
 /* Date divider + unread top-border */
 .hasContent-1_DUdQ.isUnread-3Ef-o9{
