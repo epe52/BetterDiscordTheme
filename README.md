@@ -13,7 +13,7 @@ Features include:
 Known bugs:
 - Reaction button for emote menu selector does not work.
 
-![](https://i.imgur.com/BX7Br8p.png)
+![](https://i.imgur.com/pEcB6XF.png)
 
 ![Server member list](https://i.imgur.com/xKBd915.png)
 
