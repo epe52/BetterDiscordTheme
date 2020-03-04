@@ -105,9 +105,10 @@ svg[name="DiscordWordmark"]{
     background: red !important;
     left: -20px !important;
 }
+
 /* Unread without date within message group */
-.isUnread-3Ef-o9{
-    top: -2px !important;
+.cozyMessage-3V1Y8y ~ .isUnread-3Ef-o9{
+    top: -2px;
     height: 2.5px;
     background: red !important;
     left: -20px !important;
