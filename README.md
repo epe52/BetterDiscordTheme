@@ -5,7 +5,7 @@ Features include:
 - Serverlist changes such as CoolStoryBob icon.
 - Changes to chat: custom dividers.
 - Clean "friends" section with background image and custom logo picture.
-- Hiding many "useless" thing grom UI such as "Now playing".
+- Hiding many "useless" things from UI such as "Now playing".
 - Large emote menu.
 - During screen sharing in video call hide own sharing but only if there is someone else sharing in addition to you.
 - Custom server member list.
