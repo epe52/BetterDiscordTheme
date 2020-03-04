@@ -94,33 +94,26 @@ svg[name="DiscordWordmark"]{
     color: rgba(180, 180, 180, 1);
 }
 
-/*
-* Unread without date starting new message group.
-* '~' when there is groupStart before element.
-* '>' when there is no element before.
-*/
-.groupStart-23k01U ~ .isUnread-3Ef-o9,
-.scroller-2FKFPG > .isUnread-3Ef-o9{
-    top: 11.5px !important;
-    height: 2.5px;
-    background: red !important;
-    left: -20px !important;
-}
-
-/* Unread without date within message group */
-.cozyMessage-3V1Y8y ~ .isUnread-3Ef-o9{
-    top: -2px;
-    height: 2.5px;
-    background: red !important;
-    left: -20px !important;
+/* Unread without date */
+.isUnread-3Ef-o9{
+    left: 17px;
+    width: 0;
+    height: 0;
+    transform: scale(1.2); 
 }
 .da-unreadPill{
-    margin-top: 1px;
+    margin-top: 6px;
     right: -5px;
 }
+
 /* Date divider + unread top-border */
 .hasContent-1_DUdQ.isUnread-3Ef-o9{
     top: 11.5px !important;
+    left: 50%;
+    top: 20px !important;
+}
+.hasContent-1_DUdQ.isUnread-3Ef-o9 > .da-unreadPill{
+    display: none;
 }
 
 /* Message background while hover */
@@ -172,13 +165,12 @@ div[class="nowPlayingColumn-2sl4cE da-nowPlayingColumn"],
 }
 
 /* Big emote picker */
-.emojiPicker-3m1S-j{
-    height:auto;
-    max-height:auto;
-    position:fixed;
-    top:30px;
+.da-emojiPicker{
+    height: auto;
+    position: fixed;
+    top: 30px ;
     bottom: 10px;
-    right:10px;
+    right: 10px;
     border-radius: 5px;
 }
 .scroller-3vODG7{
