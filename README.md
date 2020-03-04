@@ -18,3 +18,7 @@ Known bugs:
 ![Server member list](https://i.imgur.com/xKBd915.png)
 
 ![Large emote menu](https://i.imgur.com/70f7yjv.png)
+
+![](https://i.imgur.com/CtLFaIc.png)
+
+![](https://i.imgur.com/QLiwW9C.png)
