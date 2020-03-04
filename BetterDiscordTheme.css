@@ -81,10 +81,11 @@ svg[name="DiscordWordmark"]{
 
 /* Date divider */
 .divider-JfaTT5{
-    margin-bottom:-2px !important;
+    margin-top: -5px;
     width: 100%;
-    top: 11px;
-    padding: 1px 1px;
+    left: -16px;
+    top: 22px;
+    padding: 2px 2px;
     background: rgba(0, 0, 0, 1) !important;
 }
 /* Date on the divider */
@@ -122,7 +123,14 @@ svg[name="DiscordWordmark"]{
     top: 11.5px !important;
 }
 
-
+/* Message background while hover */
+.message-2qnXI6:hover{
+    background-color: #2f3136 !important;
+}
+/* Group first message background while hover */
+.groupStart-23k01U:hover{
+    background: linear-gradient(180deg, #36393f 10px, #2f3136 0);
+}
 
 /*======= Friends section ===========*/
 
