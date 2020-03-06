@@ -29,8 +29,8 @@
     opacity: 1;
 }
 /* Discord text-logo color */
-svg[name="DiscordWordmark"]{
-    color: rgba(255, 255, 255, 1);
+.wordmark-2iDDfm{
+    color: rgba(245, 245, 245, 1);
 }
 
 /* Windows X-button backround color on hover */
@@ -96,14 +96,21 @@ svg[name="DiscordWordmark"]{
 
 /* Unread without date */
 .isUnread-3Ef-o9{
-    left: 17px;
+    left: 15px;
     width: 0;
     height: 0;
-    transform: scale(1.2); 
+    transform: scale(1.2);
+    top: 12.5px !important;
 }
 .da-unreadPill{
     margin-top: 6px;
-    right: -5px;
+    right: -.7px !important;
+    padding: 4px 4px 4px !important;
+    border-radius: 4px !important;
+    top: -10px;
+}
+.unreadPillCap-3_K2q2{
+    display: none;
 }
 
 /* Date divider + unread top-border */
@@ -224,7 +231,7 @@ a[href='/library'],
 .membersGroup-v9BXpm {
     margin-top: 6px;
     margin-bottom: 3px;
-    color: rgba(185, 185, 185, 1) !important; /*Kategorian nimi*/
+    color: rgba(185, 185, 185, 1) !important; /*Category name*/
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: .10em;
