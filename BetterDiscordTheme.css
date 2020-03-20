@@ -81,7 +81,7 @@
 
 /* Date divider */
 .divider-JfaTT5{
-    margin-top: -5px;
+    margin-top: -5px !important;
     width: 100%;
     left: -16px;
     top: 22px;
@@ -117,7 +117,8 @@
 .hasContent-1_DUdQ.isUnread-3Ef-o9{
     top: 11.5px !important;
     left: 50%;
-    top: 20px !important;
+    margin: 0;
+    top: 22px !important;
 }
 .hasContent-1_DUdQ.isUnread-3Ef-o9 > .da-unreadPill{
     display: none;
