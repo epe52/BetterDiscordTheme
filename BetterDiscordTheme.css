@@ -84,7 +84,7 @@
     margin-top: -5px !important;
     width: 100%;
     left: -16px;
-    top: 22px;
+    top: 15px;
     padding: 2px 2px;
     background: rgba(0, 0, 0, 1) !important;
 }
@@ -115,10 +115,9 @@
 
 /* Date divider + unread top-border */
 .hasContent-1_DUdQ.isUnread-3Ef-o9{
-    top: 11.5px !important;
     left: 50%;
     margin: 0;
-    top: 22px !important;
+    top: 15px !important;
 }
 .hasContent-1_DUdQ.isUnread-3Ef-o9 > .da-unreadPill{
     display: none;
@@ -184,7 +183,6 @@ div[class="nowPlayingColumn-2sl4cE da-nowPlayingColumn"],
 .scroller-3vODG7{
     height: auto !important;
 }
-
 
 /*======= Misc things ===========*/
 
