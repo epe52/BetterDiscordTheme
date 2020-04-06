@@ -212,7 +212,7 @@ a[href='/library'],
 }
 
 /* Gift button in chat */
-.da-buttons > button[tabindex="2"]{
+.da-buttons > button[aria-label="Send a gift"]{
     display:none;
 }
 
