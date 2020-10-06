@@ -134,17 +134,30 @@
 
 /*======= Friends section ===========*/
 
-.da-peopleColumn{
+/* Section background woth few options */
+div[class="tabBody-3YRQ8W da-tabBody"]{
     /*background: url(https://cdn.discordapp.com/attachments/278501596332294145/546415000537792545/earth-seen-from-space2.jpg);*/
-    background: url(https://cdn.discordapp.com/attachments/278501596332294145/644660286053416980/55005860_p0.png);
+    /*background: url(https://cdn.discordapp.com/attachments/278501596332294145/644660286053416980/55005860_p0.png);*/
+    background: url(https://cdn.discordapp.com/attachments/278501596332294145/708649174597500958/Wallpaper-night-lantern-Japan-cherry-blossoms-images-for-.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-right: -100px; /* Hide scrollbar */
 }
-.da-peopleListItem{
-    border-radius: 5px;
-    padding-left: 10px;
-    width: 80%;
+
+/* Scrollbar hidden */
+div[class="auto-Ge5KZx scrollerBase-289Jih"]{
+    overflow: hidden !important;
+}
+
+
+/* Active now section */
+div[class="nowPlayingColumn-2sl4cE da-nowPlayingColumn"],
+.itemCard-v9viV7,
+.inset-3sAvek{
+    background: transparent !important;
+}
+/* Empty ActiveNow card text */
+.emptyCard-1RJw8n{
+    display: none;
 }
 
 /* Friends logo picture */
@@ -157,32 +170,11 @@
 /* Now playing */
 /* Offline ppl from "Online" section */
 /* Original logo (div child g) */
-div[class="nowPlayingColumn-2sl4cE da-nowPlayingColumn"],
 .da-peopleList > div:not(:first-of-type),
 .linkButtonIcon-Mlm5d6 > g[fill="none"]{
     display:none;
 }
 
-
-/*======= Emote menu ===========*/
-
-/* Better discord emotes */
-#bda-qem{
-    display:none;
-}
-
-/* Big emote picker */
-.da-emojiPicker{
-    height: auto;
-    position: fixed;
-    top: 30px ;
-    bottom: 10px;
-    right: 10px;
-    border-radius: 5px;
-}
-.scroller-3vODG7{
-    height: auto !important;
-}
 
 /*======= Misc things ===========*/
 
