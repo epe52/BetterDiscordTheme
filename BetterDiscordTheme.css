@@ -134,23 +134,25 @@
 
 /*======= Friends section ===========*/
 
-/* Section background woth few options */
-div[class="tabBody-3YRQ8W da-tabBody"]{
+/* Section background with few options */
+div[class="tabBody-3YRQ8W"]{
     /*background: url(https://cdn.discordapp.com/attachments/278501596332294145/546415000537792545/earth-seen-from-space2.jpg);*/
-    /*background: url(https://cdn.discordapp.com/attachments/278501596332294145/644660286053416980/55005860_p0.png);*/
-    background: url(https://cdn.discordapp.com/attachments/278501596332294145/708649174597500958/Wallpaper-night-lantern-Japan-cherry-blossoms-images-for-.jpg);
+    background: url(https://cdn.discordapp.com/attachments/278501596332294145/644660286053416980/55005860_p0.png);
+    /*background: url(https://cdn.discordapp.com/attachments/278501596332294145/708649174597500958/Wallpaper-night-lantern-Japan-cherry-blossoms-images-for-.jpg);*/
+    /*background: url(https://cdn.discordapp.com/attachments/278501596332294145/763112869716951110/lonely_girl_dream_4k_8k.jpg);*/
+    /*background: url(https://cdn.discordapp.com/attachments/278501596332294145/788824315813691392/dream_4k_8k2.png);*/
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 /* Scrollbar hidden */
-div[class="auto-Ge5KZx scrollerBase-289Jih"]{
-    overflow: hidden !important;
+div[class="peopleColumn-29fq28"] > .auto-Ge5KZx::-webkit-scrollbar{
+    display: none;
 }
 
-
 /* Active now section */
-div[class="nowPlayingColumn-2sl4cE da-nowPlayingColumn"],
+div[class="nowPlayingColumn-2sl4cE"],
 .itemCard-v9viV7,
 .inset-3sAvek{
     background: transparent !important;
