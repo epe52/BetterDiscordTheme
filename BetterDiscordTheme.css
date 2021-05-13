@@ -156,11 +156,16 @@
 .nowPlayingColumn-2sl4cE,
 .container-lRFx4q,
 .itemCard-v9viV7,
+.section-2gLsgF,
 .inset-3sAvek {
   background: transparent !important;
 }
-.scroller-2ZPeAD {
+.wrapper-3D2qGf {
   border-left: none !important;
+}
+.itemCard-v9viV7,
+.scroller-2ZPeAD{
+  border: none !important;
 }
 /* Empty ActiveNow card text */
 .emptyCard-1RJw8n {
