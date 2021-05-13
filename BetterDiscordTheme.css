@@ -154,9 +154,13 @@
 
 /* Active now section */
 .nowPlayingColumn-2sl4cE,
+.container-lRFx4q,
 .itemCard-v9viV7,
 .inset-3sAvek {
   background: transparent !important;
+}
+.scroller-2ZPeAD {
+  border-left: none !important;
 }
 /* Empty ActiveNow card text */
 .emptyCard-1RJw8n {
