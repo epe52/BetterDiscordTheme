@@ -164,7 +164,7 @@
   border-left: none !important;
 }
 .itemCard-v9viV7,
-.scroller-2ZPeAD{
+.scroller-2ZPeAD {
   border: none !important;
 }
 /* Empty ActiveNow card text */
@@ -201,6 +201,7 @@
 a[href="/activity"],
 a[href="/store"],
 a[href="/library"],
+a[href="/discovery"],
 .image-1GzsFd,
 .text-GwUZgS,
 #bd-pub-li {
