@@ -7,20 +7,20 @@
 /*======= Windowsbar and related ===========*/
 
 /* Windowsbar*/
-.titleBar-AC4pGV {
+.titleBar-1it3bQ {
   background: var(--accent);
   height: 22px;
   margin: 0;
 }
 
 /* Windows buttons*/
-.winButton-iRh8-Z {
+.winButton-3UMjdg {
   background: rgba(30, 30, 30, 0.7) !important;
   height: 27px;
 }
 
 /* Discord name in windowsbar*/
-.wordmark-2iDDfm {
+.wordmark-2u86JB {
   background: rgba(30, 30, 30, 0.6) !important;
   background-size: 70px 19px;
   background-position: center;
@@ -28,12 +28,12 @@
   opacity: 1;
 }
 /* Discord text-logo color */
-.wordmark-2iDDfm {
+.wordmark-2u86JB {
   color: rgba(245, 245, 245, 1);
 }
 
 /* Windows X-button backround color on hover */
-.winButtonClose-1HsbF-:hover {
+.winButtonClose-3Q8ZH5:hover {
   background: rgba(255, 0, 0, 1) !important;
 }
 
@@ -45,7 +45,7 @@
 }
 
 /* CoolStoryBob icon */
-.childWrapper-anI2G9 {
+.childWrapper-1j_1ub {
   background: url(https://cdn-images-1.medium.com/max/800/1*NDA1B65s4c5giHMy1bzBMQ.png) !important;
   opacity: 1;
   margin-top: 0;
@@ -55,7 +55,7 @@
 
 /* Discord logo  */
 /* Online amount */
-.homeIcon-FuNwkv,
+.homeIcon-r0w4ny,
 .da-friendsOnline {
   display: none;
 }
@@ -63,21 +63,21 @@
 /*========== Chat things ===========*/
 
 /* Message top-border and top-margin */
-.groupStart-23k01U {
+.groupStart-3Mlgv1 {
   border-top: 4px solid rgba(30, 30, 30, 1);
   margin-top: 10px !important;
 }
 /* Message padding with use of header  */
-.header-23xsNx {
+.header-2jRmjb {
   padding-top: 10px;
 }
 /* Avatar image padding  */
-.contents-2mQqc9 > img {
+.contents-2MsGLg > img {
   padding: 10px 0;
 }
 
 /* Date divider */
-.divider-JfaTT5 {
+.divider-2rZFJK {
   margin-top: -5px !important;
   width: 100%;
   left: -16px;
@@ -86,53 +86,53 @@
   background: rgba(0, 0, 0, 1) !important;
 }
 /* Date on the divider */
-.content-1o0f9g {
+.content-3spvdd {
   border: 3px solid rgba(30, 30, 30, 1);
   color: rgba(180, 180, 180, 1);
 }
 
 /* Unread without date */
-.isUnread-3Ef-o9 {
+.isUnread-3Lojb- {
   left: 15px;
   width: 0;
   height: 0;
-  transform: scale(1.2);
+  transform: scale(1);
   top: 12.5px !important;
 }
-.unreadPill-2HyYtt {
+.unreadPill-3nEWYM {
   margin-top: 6px;
   right: -0.7px !important;
   padding: 4px 4px 4px !important;
   border-radius: 4px !important;
   top: -10px;
 }
-.unreadPillCap-3_K2q2 {
+.unreadPillCap-2-iI4h {
   display: none;
 }
 
 /* Date divider + unread top-border */
-.hasContent-1_DUdQ.isUnread-3Ef-o9 {
+.hasContent-1y12-u.isUnread-3Lojb- {
   left: 50%;
   margin: 0;
   top: 15px !important;
 }
-.hasContent-1_DUdQ.isUnread-3Ef-o9 > .unreadPill-2HyYtt {
+.hasContent-1y12-u.isUnread-3Lojb- > .unreadPill-3nEWYM {
   display: none;
 }
 
 /* Message background while hover */
-.message-2qnXI6:hover {
+.message-2CShn3:hover {
   background-color: #2f3136 !important;
 }
 /* Group first message background while hover */
-.groupStart-23k01U:hover {
+.groupStart-3Mlgv1:hover {
   background: linear-gradient(180deg, #36393f 10px, #2f3136 0);
 }
 
 /*======= Friends section ===========*/
 
 /* Section background with few options */
-.tabBody-3YRQ8W {
+.tabBody-2dgbAs {
   /* == To select background uncomment one you wish to use == */
   /* Chill evening scenery */
   background: url(https://cdn.discordapp.com/attachments/278501596332294145/811227371008688168/2395383214_preview_GH1.jpg);
@@ -147,15 +147,16 @@
   background-position: left top;
 }
 
-/* Scrollbar hidden */
-.peopleColumn-29fq28 > .auto-Ge5KZx::-webkit-scrollbar {
+/* Scrollbar and searchbar hidden */
+.peopleList-2VBrVI::-webkit-scrollbar,
+.searchBar-2aylmZ {
   display: none;
 }
 
 /* Active now section */
-.nowPlayingColumn-2sl4cE,
-.container-lRFx4q,
-.itemCard-v9viV7,
+.nowPlayingColumn-1eCBCN,
+.container-1oAagU,
+.itemCard-3Etziu,
 .section-2gLsgF,
 .inset-3sAvek {
   background: transparent !important;
@@ -163,8 +164,8 @@
 .wrapper-3D2qGf {
   border-left: none !important;
 }
-.itemCard-v9viV7,
-.scroller-2ZPeAD {
+.itemCard-3Etziu,
+.scroller-hE2gWq {
   border: none !important;
 }
 /* Empty ActiveNow card text */
@@ -173,7 +174,7 @@
 }
 
 /* Friends logo picture */
-.linkButtonIcon-Mlm5d6 {
+.linkButtonIcon-7rsZcu {
   background: url(https://cdn.discordapp.com/attachments/278501596332294145/523618995115655213/monkaCozy.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -183,7 +184,7 @@
 /* Offline ppl from "Online" section */
 /* Original logo (div child g) */
 .da-peopleList > div:not(:first-of-type),
-.linkButtonIcon-Mlm5d6 > g[fill="none"] {
+.linkButtonIcon-7rsZcu > g[fill="none"] {
   display: none;
 }
 
@@ -216,13 +217,13 @@ a[href="/discovery"],
 }
 
 /* Gift button in chat */
-.da-buttons > button[aria-label="Send a gift"] {
+.buttons-uaqb-5 > button[aria-label="Send a gift"] {
   display: none;
 }
 
 /* === CHANGES TO SERVER MEMBER LIST */
 
-.membersGroup-v9BXpm {
+.membersGroup-2eiWxl {
   margin-top: 6px;
   margin-bottom: 3px;
   color: rgba(185, 185, 185, 1) !important; /*Category name*/
